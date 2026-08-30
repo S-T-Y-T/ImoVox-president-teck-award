@@ -1,0 +1,136 @@
+{
+  "last_host": "10.107.23.4",
+  "last_port": "8888",
+  "calib": {
+    "0": {
+      "min": 2995,
+      "max": 3442,
+      "deadzone": 5
+    },
+    "1": {
+      "min": 2924,
+      "max": 3488,
+      "deadzone": 5
+    },
+    "2": {
+      "min": 2282,
+      "max": 2296,
+      "deadzone": 5
+    },
+    "3": {
+      "min": 2783,
+      "max": 3214,
+      "deadzone": 5
+    },
+    "4": {
+      "min": 2345,
+      "max": 0,
+      "deadzone": 5
+    }
+  },
+  "gyro_calib": {
+    "pitch_min": -15.6,
+    "pitch_max": 4.2,
+    "roll_min": -11.2,
+    "roll_max": -34.0
+  },
+  "gestures": [
+    {
+      "name": "salom",
+      "ranges": [
+        [
+          36,
+          60
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          71,
+          95
+        ],
+        [
+          0,
+          12
+        ]
+      ],
+      "gyro": null,
+      "deadzone": 12,
+      "gyro_dz": 15
+    },
+    {
+      "name": "suv kerak",
+      "ranges": [
+        [
+          0,
+          12
+        ],
+        [
+          51,
+          75
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          51,
+          75
+        ],
+        [
+          0,
+          12
+        ]
+      ],
+      "gyro": null,
+      "deadzone": 12,
+      "gyro_dz": 15
+    },
+    {
+      "name": "Asilbek yaxshimisz",
+      "ranges": [
+        [
+          51,
+          75
+        ],
+        [
+          84,
+          100
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          53,
+          77
+        ],
+        [
+          0,
+          12
+        ]
+      ],
+      "gyro": null,
+      "deadzone": 12,
+      "gyro_dz": 15
+    }
+  ],
+  "claude_api_key": "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",
+  "claude_model": "claude-sonnet-4-6",
+  "claude_enabled": true,
+  "claude_system_prompt": "Siz kommunikatsiyaga muhtoj bemorlarga yordam beruvchi tizimsiZ.\nFoydalanuvchi qo'l ishorasi bilan bitta kalit so'z yuboradi.\nVazifangiz: o'sha kalit so'zdan tabiiy, qisqa, ijtimoiy to'g'ri uzbekcha gap yasang.\n\nQOIDALAR:\n- Faqat 1 ta gap, maksimum 8-10 so'z\n- Iltimos yoki so'rov shaklida bo'lsin\n- Oddiy, aniq til — hech qanday tushuntirish yo'q\n\nMISOLLAR:\n\"suv\" → \"Menga bir stakan suv bera olasizmi?\"\n\"salom\" → \"Salom, qandaysiz?\"\n\"og'riq\" → \"Mening boshim og'riyapti.\"\n\"yordam\" → \"Iltimos, menga yordam bering.\"\n\"rahmat\" → \"Katta rahmat sizga.\"",
+  "tts_enabled": true,
+  "tts_engine": "edge-tts",
+  "tts_voice": "uz-UZ-MadinaNeural",
+  "gesture_cooldown": 2.5,
+  "ble_device_name": "SmartGlove",
+  "wifi_ssid": "",
+  "wifi_pass": "",
+  "esp_static_ip": "",
+  "auth_index": 0
+}
